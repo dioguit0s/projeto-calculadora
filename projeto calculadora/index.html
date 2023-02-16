@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Super Calculadora</title>
+  </head>
+  <body>
+    <header>
+      <h1>Super Calculadora</h1>
+
+      <p>
+        <label for="numeroA">Insira numero A</label>
+        <input type="number" id="numeroA" value="3" />
+
+        <label for="numeroB">Insira numero B</label>
+        <input type="number" id="numeroB" value="2" />
+      </p>
+
+      <button id="botaoCalcula" onclick="iniciar()">Calcule Aqui</button>
+    </header>
+    <main>
+      <div id="calculos">
+        <h2>Soma</h2>
+        <p id="resultadoSoma"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Subtração de A por B:</h2>
+        <p id="resultadoSubAB"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>subtração de B por A:</h2>
+        <p id="resultadoSubBA"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Multiplicação:</h2>
+        <p id="resultadoMulti"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Divisão A/B:</h2>
+        <p id="resultadoDivAB"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Divisão B/A:</h2>
+        <p id="resultadoDivBA"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Potencia de A na base B:</h2>
+        <p id="potenciaAB"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Potencia de B na base A:</h2>
+        <p id="potenciaBA"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Raiz quadrada de A:</h2>
+        <p id="raizA"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Raiz quadrada de B:</h2>
+        <p id="raizB"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Fatorial de A:</h2>
+        <p id="fatorialA"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Fatorial de B:</h2>
+        <p id="fatorialB"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Porcentagem de A em relação a B:</h2>
+        <p id="porcentagemAB"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Porcentagem de B em relação a A:</h2>
+        <p id="porcentagemBA"></p>
+      </div>
+
+      <div id="calculos">
+        <h2>Média:</h2>
+        <p id="media"></p>
+      </div>
+    </main>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
